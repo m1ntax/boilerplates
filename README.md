@@ -16,7 +16,7 @@ winget upgrade oh-my-posh
 
 ## Download customized theme
 ```
-Invoke-WebRequest -Uri "https://github.com/m1ntax/CustomTerminal/blob/main/custom_illusi0n.omp.json" -Outfile "$env:POSH_THEMES_PATH\custom_illusi0n.omp.omp.json"
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/m1ntax/CustomTerminal/main/custom_illusi0n.omp.json -Outfile $env:POSH_THEMES_PATH\custom_illusi0n.omp.omp.json
 ```
 
 ## Edit PS Profile
