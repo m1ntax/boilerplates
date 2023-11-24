@@ -35,6 +35,6 @@ code $PROFILE
 ```
 # apply custom theme if ps has been started in Windows Terminal
 if ($env:WT_SESSION) {
-    oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\custom_illusi0n.omp.omp.json" | Invoke-Expression
+    oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\custom_illusi0n.omp.json" | Invoke-Expression
 }
 ```
