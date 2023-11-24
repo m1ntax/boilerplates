@@ -28,12 +28,13 @@ winget install XP8K0HKJFRXGCK
 Invoke-WebRequest -Uri https://raw.githubusercontent.com/m1ntax/CustomTerminal/main/custom_illusi0n.omp.json -Outfile $env:POSH_THEMES_PATH\custom_illusi0n.omp.json
 ```
 
-## Edit PS Profile
+## Edit PS Profile, add to the bottom
 ```
 code $PROFILE
 ```
 ```
-function Start-GodMode {
-    oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\custom_illusi0n.omp.json" | Invoke-Expression
+# apply custom theme if ps has been started in Windows Terminal
+if ($env:WT_SESSION) {
+    oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\custom_illusi0n.omp.omp.json" | Invoke-Expression
 }
 ```
