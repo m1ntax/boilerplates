@@ -1,5 +1,10 @@
 # CustomTerminal
 
+## Install/Update PSReadLine
+```
+Install-Module PSReadLine -Force
+```
+
 ## Install Nerd Font
 https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.0/CascadiaCode.zip
 
