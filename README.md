@@ -13,6 +13,10 @@ winget install JanDeDobbeleer.OhMyPosh
 ```
 winget upgrade oh-my-posh
 ```
+Use the following command to use the windows store version (automatically updated)
+```
+winget install XP8K0HKJFRXGCK
+```
 
 ## Download customized theme
 ```
