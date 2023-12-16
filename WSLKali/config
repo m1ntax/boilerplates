@@ -3,4 +3,4 @@
 sudo apt update
 sudo apt full-upgrade -y
 
-sudo apt install -y kali-tools-vulnerability kali-tools-web kali-tools-passwords
+sudo apt install -y bash-completion kali-tools-vulnerability kali-tools-web kali-tools-passwords
