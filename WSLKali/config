@@ -1,6 +1,7 @@
-# https://www.kali.org/docs/general-use/metapackages/
+chsh -s $(which zsh)
 
 sudo apt update
 sudo apt full-upgrade -y
 
+# https://www.kali.org/docs/general-use/metapackages/
 sudo apt install -y bash-completion kali-tools-vulnerability kali-tools-web kali-tools-passwords
