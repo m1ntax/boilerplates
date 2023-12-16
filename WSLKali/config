@@ -1,0 +1,6 @@
+# https://www.kali.org/docs/general-use/metapackages/
+
+sudo apt update
+sudo apt full-upgrade -y
+
+sudo apt install -y kali-tools-vulnerability kali-tools-web kali-tools-passwords
