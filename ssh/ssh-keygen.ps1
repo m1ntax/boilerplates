@@ -1,5 +1,6 @@
 # pairs of hosts and ssh usernames
 $hosts = @{
+    "vps.vhosted.xyz"= "jam"
     "ha.vhosted.xyz" = "j4k"
     "dh.vhosted.xyz" = "j4k"
     "pi.vhosted.xyz" = "j4k"
