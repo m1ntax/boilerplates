@@ -25,7 +25,7 @@ winget install XP8K0HKJFRXGCK
 
 ## Download customized theme
 ```
-Invoke-WebRequest -Uri https://raw.githubusercontent.com/m1ntax/CustomTerminal/main/custom_illusi0n.omp.json -Outfile $env:POSH_THEMES_PATH\custom_illusi0n.omp.json
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/m1ntax/boilerplates/refs/heads/main/WindowsTerminal/custom_illusi0n.omp.json -Outfile $env:POSH_THEMES_PATH\custom_illusi0n.omp.json
 ```
 
 ## Edit PS Profile, add to the bottom
